@@ -43,14 +43,14 @@ a img{
   color: rgba(0, 0, 0, 0.87);
 }
 
-.android-header .mdl-menu__container {
+/*.android-header .mdl-menu__container {
   z-index: 50;
   margin: 0 !important;
-}
+} */
 
 
 .mdl-textfield--expandable {
-  width: auto;
+  width: 100%;
 }
 
 .android-fab {
@@ -62,9 +62,9 @@ a img{
   color: black !important;
 }
 
-.android-mobile-title {
-  display: none !important;
-}
+/*.android-mobile-title {
+  display: none ;
+}*/
 
 
 /*.android-logo-image {
@@ -73,19 +73,18 @@ a img{
 } */
 
 
-.android-header {
+/*.android-header {
   overflow: visible;
   background-color: white;
-}
+}*/
 
-  .android-header .material-icons {
-    color: #767777 !important;
+ /* .android-header .material-icons {
+    color: #767777 !important; */
   }
 
   .android-header .mdl-layout__drawer-button {
     background: black;
     color: black;
-    position: absolute;
   }
 
   .android-header .mdl-navigation__link {
@@ -102,12 +101,10 @@ a img{
 
   .android-navigation {
     /* ... and now make sure the content is actually LTR */
-
-    width: 800px;
+    width: 100%;
   }
 
   .android-search-box.is-focused + .android-navigation-container {
-    opacity: 0;
     width: 100%;
   }
 
@@ -116,13 +113,13 @@ a img{
     display: inline-block;
     height: 60px;
     line-height: 68px;
-    background-color: transparent !important;
+    background-color: transparent;
     border-bottom: 4px solid transparent;
   }
 
-    .android-navigation .mdl-navigation__link:hover {
+   /* .android-navigation .mdl-navigation__link:hover {
       border-bottom: 4px solid #8bc34a;
-    }
+    } */
 
   .android-search-box {
     -webkit-order: 2;
@@ -158,12 +155,12 @@ a img{
 
   .android-drawer .mdl-layout-title {
     position: relative;
-    height: 160px;
+    height: 100%;
   }
 
-    .android-drawer .android-logo-image {
+   /* .android-drawer .android-logo-image {
       position: relative;
-    }
+    } */
 
 .android-be-together-section {
   position: relative;
