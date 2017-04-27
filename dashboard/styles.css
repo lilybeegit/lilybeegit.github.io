@@ -33,7 +33,7 @@ html, body {
   color: rgba(0, 0, 0, 0.54);
 }
 .mdl-layout__drawer .avatar {
-  margin-bottom: 16px;
+  height: 100%;
 }
 .demo-drawer {
   border: none;
